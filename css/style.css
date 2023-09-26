@@ -551,3 +551,7 @@ h3.my-profession {
     text-align: center;
     transition: all 0.3s ease;
 }
+.service .service-item .service-item-inner:hover
+{
+    
+}
