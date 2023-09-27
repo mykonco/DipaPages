@@ -535,7 +535,13 @@ h3.my-profession {
     text-align: justify;
     color: var(--text-black-700);
 } 
+
+
 /* Service */
+.service .container
+{
+    padding-bottom: 40px;
+}
 .service .service-item
 {
     margin-bottom: 30px;  
@@ -553,5 +559,80 @@ h3.my-profession {
 }
 .service .service-item .service-item-inner:hover
 {
-    padding: 0%;
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+.service .service-item .service-item-inner .icon 
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    display: block;
+    margin: 0 auto 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.service .service-item .service-item-inner .icon .fa
+{
+    font-size: 40px;
+    line-height: 60px;
+    color: var(--skin-color);
+    transition: all 0.3s ease;
+}
+.service .service-item .service-item-inner:hover .icon
+{
+    background: var(--skin-color);
+}
+.service .service-item .service-item-inner:hover .icon .fa
+{
+    font-size: 25px;
+    color: #ffffff;
+} 
+.service .service-item .service-item-inner h4
+{
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: var(--text-black-900);
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.service .service-item .service-item-inner p
+{
+    font-size: 16px;
+    color: var(--text-black-700);
+    line-height: 25px;
+}
+
+/* Portofolio */
+.portofolio .container
+{
+    padding-bottom: 40px;
+}
+.portofolio .portofolio-heading
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+.portofolio .portofolio-heading h2
+{
+    color: var(--text-black-900);
+    font-weight: 500;
+}
+.portofolio .portofolio-item
+{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    margin-bottom: 30px;
+}
+.portofolio .portofolio-item-inner
+{
+    border: 6px solid var(--bg-black-100);
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.portofolio .portofolio-item-inner .portofolio-img img
+{
+    width: 100%;
+    display: block;
 }
